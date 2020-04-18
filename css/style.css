@@ -38,10 +38,12 @@ a {
     border-bottom: 1px solid #506980;
 }
 
-.logo img {
-    font-size: 30px;
-    font-weight: 700;
+.logo {
     width: 25%;
+
+}
+
+.logo img {
     padding: 15px 0 22px;
 }
 
@@ -62,6 +64,7 @@ a {
     font-weight: 700;
     color: #fff;
     padding: 30px 15px;
+    display: inline-block;
 }
 
 /*Header css End*/
@@ -70,7 +73,7 @@ a {
     background-image: url(../images/Bazinger.png);
     background-size: cover;
     background-position: center;
-    padding: 180px 0;
+    padding: 190px 0 90px;
 }
 
 .banner-content {
@@ -82,12 +85,56 @@ a {
 .banner-content h1 {
     font-size: 48px;
     font-weight: 700;
+    color: #fff;
 
 }
 
 .banner-content p {
     font-size: 18px;
+    color: #fff;
+    padding: 18px 0 26px;
 
 }
 
+.banner-content .button-one {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #29343f;
+    border: none;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+
+}
+
+.banner-content .button-two {
+    font-size: 15px;
+    color: #fff;
+    background-color: #4bcaff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+.banner-icon p {
+    display: inline-block;
+    padding-top: 48px;
+}
+
+/*feature css start*/
+.feature-content h2 {
+    font-size: 36px;
+    color: #414042;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.feature-content p {
+    font-size: 20px;
+    color: #414042;
+    text-align: center;
+}
+
+/*feature css End*/
 /*Banner css End*/
