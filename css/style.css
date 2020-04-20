@@ -83,10 +83,15 @@ a {
 }
 
 .banner-content h1 {
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 30px;
     color: #fff;
 
+}
+
+.banner-content h1 span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .banner-content p {
@@ -117,24 +122,72 @@ a {
     padding: 15px 40px;
 }
 
+.banner-icon i {
+    height: 70px;
+    width: 70px;
+    background-color: #171a1f;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 50%;
+
+}
+
 .banner-icon p {
     display: inline-block;
     padding-top: 48px;
 }
 
+/*Banner css End*/
+
 /*feature css start*/
-.feature-content h2 {
+
+
+
+
+
+/*feature css End*/
+/*round box css start*/
+.container .section-title {
+    text-align: center;
+}
+
+.section-title h2 {
     font-size: 36px;
     color: #414042;
-    text-align: center;
     padding-top: 40px;
 }
 
-.feature-content p {
+.section-title p {
     font-size: 20px;
     color: #414042;
     text-align: center;
 }
 
-/*feature css End*/
-/*Banner css End*/
+#round-box .row {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.round-item i {
+    font-size: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: #4bcaff;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 50%;
+}
+
+.round-item h3 {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 27px 0 15px;
+}
+
+.round-item p {
+    font-size: 13px;
+}
+
+/*round box css End*/
